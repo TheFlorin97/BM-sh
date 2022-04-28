@@ -11,13 +11,15 @@ import { CarouselAdvComponent } from './components/carousel-adv/carousel-adv.com
 
 import { NgbPaginationModule, NgbAlertModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NewProdComponent } from './components/new-prod/new-prod.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     CarouselAdvComponent,
-    NewProdComponent
+    NewProdComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
