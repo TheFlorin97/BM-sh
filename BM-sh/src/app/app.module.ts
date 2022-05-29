@@ -12,6 +12,10 @@ import { CarouselAdvComponent } from './components/carousel-adv/carousel-adv.com
 import { NgbPaginationModule, NgbAlertModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NewProdComponent } from './components/new-prod/new-prod.component';
 import { HomeComponent } from './pages/home/home.component';
+import { SaleComponent } from './pages/sale/sale.component';
+import { WomanComponent } from './pages/woman/woman.component';
+import { ManComponent } from './pages/man/man.component';
+import { CollectionsComponent } from './pages/collections/collections.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { HomeComponent } from './pages/home/home.component';
     NavComponent,
     CarouselAdvComponent,
     NewProdComponent,
-    HomeComponent
+    HomeComponent,
+    SaleComponent,
+    WomanComponent,
+    ManComponent,
+    CollectionsComponent
   ],
   imports: [
     BrowserModule,
