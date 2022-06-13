@@ -3,8 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  contentful: {
+    sapceId: 'sw4mfi0gpbmk',
+    token: 'p2PursOPYpMMSuNvUlh_DAO8TAqIi8RWfaNP4q4x240'
+  }
 };
+
+
 
 /*
  * For easier debugging in development mode, you can import the following file
